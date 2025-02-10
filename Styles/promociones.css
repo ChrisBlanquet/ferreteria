@@ -1,0 +1,148 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    position: relative;
+}
+
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.buscador a img {
+    width: 150px;
+}
+
+.paneles {
+    display: flex;
+    gap: 15px;
+}
+
+.fondoredondo {
+    background-color: #f44336;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.fondoredondo:hover {
+    background-color: #d32f2f; 
+}
+
+.iconsearch, .iconuser, .iconshop {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #f44336;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    margin: 0 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f44336;
+}
+
+
+.promociones-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.promociones-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-10px);
+}
+
+.producto a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.producto a:hover {
+    color: #f44336;
+}
+
+.producto h2 {
+    color: #e53935;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

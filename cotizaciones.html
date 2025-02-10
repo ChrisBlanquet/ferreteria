@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizaciones</title>
+    <link rel="stylesheet" href="Styles/cotizaciones.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+
+<header>
+    <section class="buscador">
+        <a href="index.html"><img src="img/Logosinfondo.png"></a>
+        <div class="paneles">
+            <div class="search fondoredondo">
+                <i class="ri-search-2-line iconsearch"></i>
+            </div>
+            <div class="user fondoredondo">
+                <i class="ri-user-6-line iconuser"></i>
+            </div>
+            <div class="shop fondoredondo">
+                <i class="ri-shopping-cart-line iconshop"></i>
+            </div>
+        </div>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="marcas.html">Marcas</a></li>
+            <li><a href="promociones.html">Promociones</a></li>
+            <li><a href="cotizaciones.html">Cotizaciones</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h2>Solicitar Cotización</h2>
+    <form action="#" method="POST" class="cotizacion-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="mensaje">Detalle de la cotización:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form> 
+</body>
+
+<footer>
+    <div>
+        <p>CONTACTO</p>
+        <p>Telefono: 7474711087</p>
+        <p>Correo: lacentral2@outlook.com</p>
+    </div>
+    <div>
+        <p>POLÍTICAS LEGALES</p>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Políticas De Devolución</a>
+        <a href="#">Preguntas Frecuentes</a>
+    </div>
+</footer>
+
+</html>

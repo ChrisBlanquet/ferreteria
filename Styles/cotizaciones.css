@@ -1,0 +1,230 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 150px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.buscador img {
+    width: 50%; 
+}
+
+.paneles {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.fondoredondo {
+    background-color: #f44336;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.fondoredondo:hover {
+    background-color: #d32f2f; 
+}
+
+.iconsearch, .iconuser, .iconshop {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #444;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f44336;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer div {
+    width: 30%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f44336;
+}
+
+.cotizacion-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ddd;
+}
+
+.cotizacion-form h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cotizacion-form label {
+    font-size: 16px;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.cotizacion-form input, .cotizacion-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    color: #555;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+.cotizacion-form input:focus, .cotizacion-form textarea:focus {
+    border-color: #FF6F61;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.3);
+    outline: none;
+}
+
+
+.cotizacion-form input::placeholder, .cotizacion-form textarea::placeholder {
+    color: #aaa;
+}
+
+
+.cotizacion-form button {
+    background-color: #FF6F61;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+
+.cotizacion-form button:hover {
+    background-color: #D85C4F;
+}
+
+
+.cotizacion-form button:active {
+    transform: scale(0.98);
+}
+
+
+.cotizacion-form p {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.cotizacion-form a {
+    color: #FF6F61;
+    text-decoration: none;
+}
+
+.cotizacion-form a:hover {
+    text-decoration: underline;
+}
+
+body>h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 745px) {
+    .cotizacion-form{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cotizacion-form{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
