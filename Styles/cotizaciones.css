@@ -222,6 +222,16 @@ body>h2{
 }
 
 @media screen and (max-width: 576px) {
+
+    nav{
+        width: calc(100% - 3rem);
+        margin: 0 auto;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+    }
+
     .cotizacion-form{
         width: 70%;
         display: flex;
